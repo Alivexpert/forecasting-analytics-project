@@ -28,3 +28,7 @@ Prereq
 * Use any Visualization tool Create Interactive DBs
 
 # Installation Steps 
+git clone https://github.com/Alivexpert/forecasting-analytics-project.git
+cd forecasting-analytics-project
+# python packages
+pip install -r requirements.txt
