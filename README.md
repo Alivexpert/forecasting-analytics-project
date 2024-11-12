@@ -32,3 +32,17 @@ git clone https://github.com/Alivexpert/forecasting-analytics-project.git
 cd forecasting-analytics-project
 # python packages
 pip install -r requirements.txt
+
+## Usage
+# Data Prep Session 
+* Use Databricks to extract data from multiple sources, clean, and normalize it.
+* Load the prepared data into a SQL table named ForecastingData. (you can give the names of our chocices)
+# Model Training
+* Employ Python and PySpark to preprocess features and train a forecasting model.
+* Use the VectorAssembler in PySpark to create feature vectors based on columns such as Actual Revenue, Actual Expenses, Profit Margin, and Growth Rate.( Insights on Different approaches are higly welcomed )
+# Automation
+* Set up a job in Databricks to automate the ETL, model training, and data updates in a table called UpdatedForecastingData.
+* Configure the Databricks Job to run periodically, automatically refreshing the data and forecasts.
+# Visualization 
+* Connect Power BI using ODBC data sources
+* Create Dashboard based on Business requirement as well as look for new metrics.
